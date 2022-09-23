@@ -1,0 +1,68 @@
+.recipe_wrapper {
+    padding: 2rem;
+    overflow-x: hidden;
+}
+
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.recipe_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    object-fit: cover;
+}
+
+
+.recipe_left img {
+    width: 40rem;
+}
+
+.recipe_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.recipe_cta {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin: 1rem 0;
+}
+
+.recipe_right .title {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+
+.recipe_right .dec {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    background-color: #ffff56;
+    font-weight: 300;
+}
+
+.recipe_cta .price {
+    font-size: 2.4rem;
+}
+
+button.recipe_cta {
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    padding: .5rem 1.7rem;
+    border: none;
+    border-radius: 3rem;
+}

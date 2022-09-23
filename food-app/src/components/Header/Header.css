@@ -1,0 +1,50 @@
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header_wrapper .header_logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header_wrapper .header_logo span {
+    font-weight: 800;
+    font-size: 1.7rem;
+    background-color: #f97316;
+    padding: .2rem .5rem;
+    color: white;
+}
+
+.header_wrapper .header_logo img {
+    max-width: 4.5rem;
+
+}
+
+img.user_icon {
+    max-width: 3.5rem;
+
+
+}
+
+.header_icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.header_icon sup {
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    background-color: #f97316;
+    padding: .2rem .8rem;
+    color: white;
+    border-radius: 3rem;
+    font-size: .9rem;
+}
